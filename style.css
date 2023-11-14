@@ -6,6 +6,7 @@
     Box-sizing: border-box;
 }
 
+/* Header */
 .container-header {
     width: 100%;
     height: 50px;
@@ -22,5 +23,22 @@
 .container-header-small {
     margin: 10px 20px;
     vertical-align: middle;
-
 }
+
+/* Add section */
+main {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(250, 250, 250);
+}
+
+nav {
+    position: top 10%;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.button-section {}
