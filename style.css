@@ -6,39 +6,54 @@
     Box-sizing: border-box;
 }
 
-/* Header */
-.container-header {
-    width: 100%;
-    height: 50px;
-    vertical-align: middle;
-    font-size: 28px;
-    display: inline;
-}
-
-#logo {
-    width: 3%;
-    vertical-align: middle;
-}
-
-.container-header-small {
-    margin: 10px 20px;
-    vertical-align: middle;
-}
-
-/* Add section */
-main {
-    width: 100%;
-    height: 800px;
+body {
     background-color: rgb(250, 250, 250);
 }
 
-nav {
-    position: top 10%;
-    width: 50%;
-    height: 500px;
-    margin: 0 auto;
+/* Header */
+header {
+    width: 100%;
+    height: 10%;
     background-color: white;
-    border-radius: 1%;
+    vertical-align: middle;
 }
 
-.button-section {}
+#logo {
+    margin: 1%;
+    margin-top: 1%;
+    margin-right: 0%;
+    vertical-align: middle;
+}
+
+h2.logo-text {
+    vertical-align: middle;
+    display: inline;
+    font-size: 32px
+}
+
+/* Main + nav + section */
+main {
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border-radius: 1%;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+nav {
+    height: 7%;
+    border-bottom: 5px;
+    border-color: red;
+}
+
+
+
+
+/* section {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+} */
