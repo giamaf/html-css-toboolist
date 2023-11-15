@@ -1,108 +1,40 @@
 /* Reset CSS */
 * {
-    font-family: Arial, sans-serif;
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
 }
 
+/* Generics */
 body {
-    background-color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 251, 251)
+}
+
+/* Utils */
+
+.container {
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* Header */
+
 header {
-    width: 100%;
-    height: 10%;
+    height: 50px;
+    line-height: 50px;
     background-color: white;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 40px;
     vertical-align: middle;
 }
 
-#logo {
-    margin: 1%;
-    margin-top: 1%;
-    margin-right: 0%;
-    vertical-align: middle;
-}
-
-h2.logo-text {
-    vertical-align: middle;
+h1 {
     display: inline;
-    font-size: 32px
-}
-
-/* Main + nav */
-
-main {
-    width: 50%;
-    height: 600px;
-    margin: 0 auto;
-    margin-top: 1.5%;
-}
-
-nav {
-    width: 100%;
-    height: 8%;
-    background-color: white;
-    border-top-left-radius: 2%;
-    border-top-right-radius: 2%;
-    padding-left: 3%;
-    padding-top: 2.3%;
-    margin-bottom: 1%;
-}
-
-span.button {
-    font-size: 12px;
-    border: 1px solid;
-    border-radius: 10%;
-    padding: 1%;
-    text-align: center;
-}
-
-#button-blue {
-    background-color: rgb(102, 202, 252);
-    color: white;
-    border-color: lightgray;
-}
-
-#button-white {
-    color: gray;
-    border-color: gray;
-}
-
-/* To do list */
-.list {
-    width: 100%;
-    height: 91%;
-    background-color: white;
-    padding-left: 3%;
-    padding-top: 0.25%;
-}
-
-.list-title {
-    margin-bottom: 3%;
-    margin-top: 5%;
-    list-style-type: none;
-    font: 14px bold;
-    font-weight: 800;
-}
-
-.list-item {
-    margin-bottom: 3%;
-    width: 100%;
-    height: 20px;
-    font-size: 14px;
-    list-style-type: none;
     vertical-align: middle;
-    /* display: inline; */
-}
-
-.category {
-    font: 12px solid white;
-    list-style-type: none;
-    border-radius: 10px 10px;
-    border: 1px solid;
-    padding: 1%;
-    margin-left: 1%;
-    /* display: inline; */
+    font-size: 32px;
 }
