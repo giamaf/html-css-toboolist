@@ -111,3 +111,35 @@ ul {
 .text {
     vertical-align: middle;
 }
+
+.category {
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.category.blue {
+    background-color: rgb(95, 164, 254);
+}
+
+.category.purple {
+    background-color: purple;
+}
+
+.category.green {
+    background-color: green;
+}
+
+.category.orange {
+    background-color: orange;
+}
+
+.category.pink {
+    background-color: pink;
+}
+
+.category.lightgreen {
+    background-color: lightgreen;
+}
