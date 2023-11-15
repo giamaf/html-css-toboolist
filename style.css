@@ -54,7 +54,8 @@ h1 {
     padding: 20px 25px;
 }
 
-button {
+.button {
+    font-size: 10px;
     border-radius: 5px;
     padding: 5px 10px;
     border: 1px solid;
@@ -63,9 +64,11 @@ button {
 button.task {
     color: white;
     background-color: rgb(95, 164, 254);
+    border-color: currentColor;
 }
 
 button.section {
     color: grey;
-    background-color: white
+    background-color: white;
+    border-color: currentColor;
 }
